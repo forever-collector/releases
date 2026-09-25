@@ -15,6 +15,22 @@ release zips only.
 2. Paste `https://github.com/forever-collector/releases` and install.
 3. Both addons arrive together in one zip. WowUp keeps them updated from here.
 
+### If WowUp says "Failed to install" when updating
+
+This is a known WowUp bug with every addon hosted on GitHub
+([WowUp#1520](https://github.com/WowUp/WowUp/issues/1520)). WowUp only downloads updates
+correctly when a GitHub token is set. A free, read-only token fixes it for good:
+
+1. On GitHub, open **Settings → Developer settings → Personal access tokens → Fine-grained
+   tokens → Generate new token**
+   ([direct link](https://github.com/settings/personal-access-tokens/new)).
+2. Name it `WowUp`, set **Repository access** to **Public repositories (read-only)**, and
+   generate it. It needs no permissions.
+3. In WowUp, paste it into **Options → Addons → GitHub Personal Access Token**.
+
+Then update as normal. Without a token, removing the addon and installing it again from the
+URL above also works.
+
 ## Install by hand
 
 Download the newest `forever-collector-*.zip` from
