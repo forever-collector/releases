@@ -12,13 +12,13 @@ release zips only.
 ## Install with WowUp
 
 1. Open WowUp and choose **Get Addons**, then **Install from URL**.
-2. Paste `https://github.com/FritzAutomation/forever-collector-releases` and install.
+2. Paste `https://github.com/forever-collector/releases` and install.
 3. Both addons arrive together in one zip. WowUp keeps them updated from here.
 
 ## Install by hand
 
 Download the newest `forever-collector-*.zip` from
-[Releases](https://github.com/FritzAutomation/forever-collector-releases/releases) and unzip it
+[Releases](https://github.com/forever-collector/releases/releases) and unzip it
 into `World of Warcraft\_classic_beta_\Interface\AddOns`, so that you end up with
 `AddOns\FCollector` and `AddOns\FCompanion`.
 
