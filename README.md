@@ -38,6 +38,24 @@ Download the newest `forever-collector-*.zip` from
 into `World of Warcraft\_classic_beta_\Interface\AddOns`, so that you end up with
 `AddOns\FCollector` and `AddOns\FCompanion`.
 
+## Show your ledger on the website (optional)
+
+The addons work fully in game on their own. To also see your ledger at
+[forever-collector.vercel.app](https://forever-collector.vercel.app):
+
+1. Sign in there with Battle.net, open **Key**, and create an upload key.
+2. Download **ForeverCollectorUploader.exe** from the newest
+   [release](https://github.com/forever-collector/releases/releases/latest) and run it.
+3. Paste your key when it asks (it will not be shown as you paste). Answer **Y** to start it
+   with Windows, and it uploads by itself every time you log out of the game.
+
+Windows may say **"Windows protected your PC"** the first time, because the program is new and
+not yet code-signed. Choose **More info**, then **Run anyway**.
+
+Handy options, run from a terminal: `ForeverCollectorUploader.exe --setup` enters a new key,
+`--startup off` stops it starting with Windows, and `--once` uploads once and exits. It keeps its
+settings and a log in `%APPDATA%\ForeverCollector`.
+
 ## Privacy
 
 Other players only ever appear as salted hashes, class, race, level band and zone. Names, chat,
