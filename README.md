@@ -44,9 +44,11 @@ This is a known WowUp bug with addons hosted on GitHub ([WowUp#1520](https://git
 
 The uploader is also what brings the latest top-player gear into the in-game **Vs Top** tab.
 
-1. Sign in at [sagaledger.com](https://sagaledger.com/start) with Battle.net and create an upload key.
-2. Download [`SagaUploader.exe`](https://github.com/saga-addon/saga/releases/latest/download/SagaUploader.exe) (Windows) and run it.
-3. Paste your key and choose **Connect**.
+1. Download [`SagaUploader.exe`](https://github.com/saga-addon/saga/releases/latest/download/SagaUploader.exe) (Windows) and run it.
+2. Choose **Connect with Battle.net**. It shows a code and opens your browser.
+3. Sign in, check the code matches, and choose **Connect this PC**. There's nothing to copy or paste.
+
+You can also create an upload key on [sagaledger.com/key](https://sagaledger.com/key) and paste it into the same window.
 
 After that it runs as an icon by the clock and uploads every time you log out, starting with Windows unless you untick that box. Right-click the icon for **Upload now**, **Change upload key** and **Quit**.
 
