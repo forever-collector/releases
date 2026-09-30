@@ -65,6 +65,10 @@ The uploader never changes your saved data while the game is running.
 
 More: [sagaledger.com/privacy](https://sagaledger.com/privacy).
 
+## Support
+
+Saga is free and stays free; nothing is locked behind a tip. If you'd like to help cover what it costs to run (servers, the domain, the signed uploader), you can [support Saga on Ko-fi](https://ko-fi.com/sagaledger).
+
 ## Commands
 
 | Command | What it does |
